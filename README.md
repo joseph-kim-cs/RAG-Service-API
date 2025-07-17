@@ -82,16 +82,3 @@ Run tests using:
 ```bash
 pytest test/
 ```
-
-## Planning Questions
-
-- Should watsonx.ai remain the default for hosting models and governance SDK?
-- What modular environments can support equivalent functionality (e.g., for offline or cross-cloud deployment)?
-- How to integrate cross-encoder reranking and fingerprinting in a scalable way?
-
-## Future Enhancements
-
-- Full evaluation dashboard with traceable error logs
-- Visual query analytics
-- Custom user-defined prompt behavior
-- Plugin support for different LLM hosts (LLM-as-a-Service)
