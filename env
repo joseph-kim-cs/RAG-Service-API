@@ -1,13 +1,13 @@
 # watsonx.data credentials
-WXD_MILVUS_HOST="c9f23f06-7d7f-4075-bb15-9abf99cb1a7a.cvbhm81d0dmnvl5rjek0.lakehouse.appdomain.cloud"
-WXD_MILVUS_PORT="32048"
-WXD_MILVUS_USER="ibmlhapikey"
-WXD_MILVUS_PASSWORD="WwgaG-LX-29XQni_YrLxnMLovvpUAT_oQB3hils3VvUd"
+WXD_MILVUS_HOST=""
+WXD_MILVUS_PORT=""
+WXD_MILVUS_USER=""
+WXD_MILVUS_PASSWORD=""
 
 # watsonx.ai credentials
 WATSONX_MODEL_ID="ibm/granite-3-2b-instruct"
-WATSONX_PROJECT_ID="b097f6a1-07b7-4b0b-8bb7-06e68b67ea5b"
-WATSONX_APIKEY="eWRhFltIJc9MyjipWEFwz9622sY5BB1NWznfid7Dl6Dz"
+WATSONX_PROJECT_ID=""
+WATSONX_APIKEY=""
 WATSONX_URL="https://us-south.ml.cloud.ibm.com"
 
 
