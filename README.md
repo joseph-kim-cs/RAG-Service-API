@@ -54,16 +54,16 @@ app/
 
 1. Clone the repository
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/joseph-kim-cs/RAG-Service-API
    cd rag-service-api
    ```
 
 2. Set environment variables
-   Create a `.env` file:
+   Configure `.env` file:
    ```
-   WATSONX_API_KEY=your_key_here
-   MILVUS_HOST=localhost
-   MILVUS_PORT=19530
+   WATSONX_API_KEY=''
+   MILVUS_HOST=''
+   MILVUS_PORT=''
    USE_MEMORY_LAYER=True
    ```
 
@@ -81,5 +81,10 @@ app/
 
 Run tests using:
 ```bash
-pytest test/
+test_api.ipynb
 ```
+
+![UFC RAG Accelerator-Page-3](https://github.com/user-attachments/assets/85932c6c-b529-44f1-a911-d06b0bbcef3a)
+
+
+
