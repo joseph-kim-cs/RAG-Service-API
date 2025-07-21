@@ -2,7 +2,6 @@ import os
 import logging
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
-#from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
@@ -24,7 +23,7 @@ ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 # FastAPI application instance
 app = FastAPI(
     title="Milvus RAG API",
-    description="Hybrid search RAG with Milvus",
+    description="watsonx.ai - Hybrid search RAG with Milvus",
     version="1.0.1-fastapi",
     servers=[{"url": SERVER_URL}],
 )
