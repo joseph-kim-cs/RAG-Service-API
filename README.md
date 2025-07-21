@@ -14,6 +14,7 @@ app/
 ├── route/                    # API endpoints, error logging, environment validation
 │   ├── ingest/               # Ingestion endpoint
 │   └── query/                # Query endpoint (retrieval, reranking, rewriting)
+|   └── root/                 # fastapi HTML response
 ├── src/
 │   ├── model/                # Data models for ingestion, querying, errors, evaluation
 │   └── services/             # Core pipeline services
